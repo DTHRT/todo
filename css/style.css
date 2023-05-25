@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: whitesmoke;
+}
+
+.container {
+  width: 1224px;
+  margin: auto;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: bisque;
+  font-size: 25px;
+}
+
+.navbar button {
+  padding: 8px 20px;
+  border-radius: 8px;
+  border: 0;
+  background-color: rgb(221, 114, 114);
+  box-shadow: 0px 0px 5px red;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar__right-block {
+  display: flex;
+  color: white;
+}
+
+.navbar__right-block p {
+  margin-right: 15px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: white;
+  width: 40%;
+  height: 280px;
+  padding: 30px;
+  text-align: center;
+}
+
+.card form input {
+  width: 70%;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+.card form button {
+  padding: 15px 0;
+  width: 71%;
+  margin-top: 10px;
+  background-color: rgb(139, 139, 232);
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
+
+.boxes {
+  width: 30%;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  margin: 20px 0;
+  box-shadow: 0 0 5px gray;
+}
+
+.boxes img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+
+.boxes h4 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.btn_inline {
+  display: flex;
+  gap: 10px;
+}
+
+.btn_inline button {
+  width: 50%;
+  padding: 10px 0;
+  cursor: pointer;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+}
+
+.btn_inline button:nth-child(1) {
+  background-color: rgb(218, 108, 108);
+}
+
+.btn_inline button:nth-child(2) {
+  background-color: rgb(84, 89, 216);
+}
+
+.d-none {
+  display: none;
+}
